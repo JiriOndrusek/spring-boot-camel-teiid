@@ -6,8 +6,8 @@ In the example, a Camel route periodically generates random categories then exec
 performing different paths depending on the result of each query.
 
 This quickstart assumes that the Teiid server is already running on Openshift (or Kubernetes) with the example `Portfolio` virtual database deployed.
-One simple way to run a Teiid server and deploy the `Portfolio` virtual database is following the documentation of the JDV xPaaS image for Openshift related to 
-the `datavirt63-basic-s2i` template.
+One simple way to run a Teiid server and deploy the `Portfolio` virtual database is following the documentation of the [JDV xPaaS image for Openshift](https://access.redhat.com/documentation/en-us/red_hat_jboss_data_virtualization/6.4/html/red_hat_jboss_data_virtualization_for_openshift) related to 
+the `datavirt64-basic-s2i` template.
 
 During the JDV server creation, the username and password fields for the Teiid user should be filled in.
 The same credentials must be used in this quickstart for the properties `teiid.username` and `teiid.password` of the `application.properties` file.
