@@ -33,7 +33,7 @@
     <!-- dependency versions -->
     <fuse.version>7.0.1.fuse-000008-redhat-4</fuse.version>
 
-    <teiid.version>8.12.13.6_3-redhat-1</teiid.version>
+    <teiid.version>8.12.17.6_4-redhat-64-2</teiid.version>
 
     <!-- maven plugin versions -->
     <maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
